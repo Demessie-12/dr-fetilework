@@ -11,6 +11,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        trusted2: "url(/setup-bg.jpg)",
+      },
     },
   },
   plugins: [],
