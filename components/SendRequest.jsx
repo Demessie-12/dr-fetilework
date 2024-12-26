@@ -53,8 +53,8 @@ function SendRequest() {
             </h1>
             <h1 className="text-xl text-white font-bold">
               for more information call us{" "}
-              <a href="tel:0942308965" className="text-black">
-                0942308965
+              <a href="tel:0911050507" className="text-black">
+                0911050507
               </a>
             </h1>
           </div>

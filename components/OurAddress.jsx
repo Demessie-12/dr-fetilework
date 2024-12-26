@@ -54,7 +54,7 @@ function OurAddress() {
           Direction
         </a>
         <p className="py-3 px-6 bg-gray-100 hover:bg-white hover:text-black hover:transition duration-500 w-fit text-xl  rounded-full text-green-600 font-semibold">
-          <a href="tel:0942308965">+2519 42 30 89 65</a>
+          <a href="tel:0911050507">+2519 11 05 05 07</a>
         </p>
       </div>
     </div>
