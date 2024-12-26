@@ -13,7 +13,7 @@ function Navbar() {
     <div className="w-full bg-green-600  sticky left-0 top-0  h-18 flex my-auto justify-between text-xl lg:h-16 md:pr-3 lg:pr-5 z-40 ">
       <Link href="/" className="flex px-1 pl-2 md:px-2">
         <Image
-          src="/logo.png"
+          src="/Logo.png"
           alt="dr fetilework logo"
           className="h-12 w-auto flex my-auto"
           width={250}
