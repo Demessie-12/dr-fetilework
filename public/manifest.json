@@ -1,9 +1,9 @@
 {
   "name": "Dr Fetilework Application",
-  "short_name": "Dr Fetilework App",
+  "short_name": "Dr Fetilework",
   "icons": [
     {
-      "src": "/logo.png",
+      "src": "/LogoApp.png",
       "sizes": "512x512",
       "type": "image/png"
     }

@@ -65,7 +65,7 @@ function Navbar() {
             </div>
             <div className="flex mx-auto mt-8">
               <Image
-                src="/logo.png"
+                src="/Logo.png"
                 alt="dr fetilework logo"
                 className="h-12 w-auto flex my-auto"
                 width={250}

@@ -14,7 +14,7 @@ function Footer() {
         <div className="flex  gap-1 px-3 md:px-5 ">
           <div className="flex flex-col w-fit md:w-[600px] my-auto text-center">
             <Image
-              src="/logo.png"
+              src="/Logo.png"
               className="h-auto md:w-80"
               width={1000}
               height={1000}

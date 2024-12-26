@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className="relative">
+      <body className="relative overflow-x-hidden">
         <Navbar />
         <main className="bg-green-600 pt-3">{children}</main>
         <div className="bg-green-600">
