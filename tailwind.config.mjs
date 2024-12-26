@@ -13,6 +13,7 @@ export default {
       },
       backgroundImage: {
         trusted2: "url(/setup-bg.jpg)",
+        eth: "url(/setup-4.jpg)",
       },
     },
   },

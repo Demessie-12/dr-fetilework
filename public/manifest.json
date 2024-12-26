@@ -1,0 +1,16 @@
+{
+  "name": "Dr Fetilework Application",
+  "short_name": "Dr Fetilework App",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#43A047",
+  "background_color": "#43A047",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

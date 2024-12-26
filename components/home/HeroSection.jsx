@@ -23,7 +23,7 @@ const HeroSection = () => {
   }
 
   return (
-    <div className="grid w-full grid-cols-2 gap-3 bg-gradient-to-r from-amber-500 to-pink-500">
+    <div className="grid w-full grid-cols-2 gap-3 bg-gradient-to-r from-amber-500 to-green-600">
       <div className="flex flex-col gap-3 pl-2 pt-5 md:pl-5 xl:pl-10">
         <p className="text-xl font-bold text-black md:text-2xl xl:text-3xl">
           Hi, Welcome to
@@ -36,9 +36,11 @@ const HeroSection = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Implant Services",
+                  "Dental Implant",
                   "Braces and Invisalign",
                   "Teeth whitening",
+                  "Pediatric Dentistry",
+                  "Porcelain Veneers",
                 ],
                 autoStart: true,
                 loop: true,

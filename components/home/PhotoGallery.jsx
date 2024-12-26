@@ -18,8 +18,8 @@ function PhotoGallery() {
           className="h-auto w-full md:w-48 md:rounded-3xl md:mt-10"
           src="/setup-2.jpg"
           alt="image of dr fetileword"
-          width={5000}
-          height={5000}
+          width={8000}
+          height={8000}
         />
       </div>
       <div className="col-span-2 hidden lg:flex">

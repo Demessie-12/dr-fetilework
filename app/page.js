@@ -1,7 +1,14 @@
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/home/HeroSection";
 import OurDifference from "@/components/home/OurDifference";
+import Parallax from "@/components/home/Parallax";
 import PhotoGallery from "@/components/home/PhotoGallery";
 import ServicesSample from "@/components/home/ServicesSample";
+import TourOurOffice from "@/components/home/TourOurOffice";
+import Trusted from "@/components/home/Trusted";
+import OurAddress from "@/components/OurAddress";
+import SendRequest from "@/components/SendRequest";
+import SocialMedia from "@/components/SocialMedia";
 import Image from "next/image";
 
 export const metadata = {
@@ -18,7 +25,11 @@ export default function Home() {
       <HeroSection />
       <PhotoGallery />
       <ServicesSample />
+      <Trusted />
+      <TourOurOffice />
       <OurDifference />
+      <SendRequest />
+      <Parallax />
     </div>
   );
 }

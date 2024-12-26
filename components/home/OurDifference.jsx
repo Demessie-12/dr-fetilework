@@ -3,12 +3,12 @@ import React from "react";
 
 function OurDifference() {
   return (
-    <div className="flex bg-gray-300 md:flex-row flex-col">
-      <div className="pl-1 md:pl-3  py-5">
-        <h1 className="text-xl md:text-2xl text-orange-600 font-bold  text-center underline-offset-2 underline">
+    <div className="flex pt-5  bg-gray-300 md:flex-row flex-col">
+      <div className="pl-2 md:pl-4 lg:pl-6 xl:pl-10  py-5 ">
+        <h1 className="text-xl md:text-2xl lg:text-3xl text-orange-600 font-bold  text-center underline-offset-2 underline">
           What make us different?
         </h1>
-        <div className="flex gap-2 pt-2 md:gap-3 md:pt-3 md:text-xl text-base">
+        <div className="flex gap-2 pt-3 md:gap-3 md:text-xl text-base">
           <h1 className="p-2 rounded-full bg-green-600 text-white font-semibold h-fit my-auto md:text-lg">
             01
           </h1>
@@ -23,7 +23,7 @@ function OurDifference() {
             offering a truly personalized experience.
           </p>
         </div>
-        <div className="flex gap-2 pt-2 md:gap-3 md:pt-3 md:text-xl text-base">
+        <div className="flex gap-2 pt-5 md:gap-3 md:text-xl text-base">
           <h1 className="p-2 rounded-full bg-blue-600 text-white font-semibold h-fit my-auto md:text-lg">
             02
           </h1>
@@ -38,7 +38,7 @@ function OurDifference() {
             comfort, and speed.
           </p>
         </div>
-        <div className="flex gap-2 pt-2 md:gap-3 md:pt-3 md:text-xl text-base">
+        <div className="flex gap-2 pt-5 md:gap-3 md:text-xl text-base">
           <h1 className="p-2 rounded-full bg-green-600 text-white font-semibold h-fit my-auto md:text-lg">
             03
           </h1>
@@ -53,7 +53,7 @@ function OurDifference() {
             as stress-free as possible.
           </p>
         </div>
-        <div className="flex gap-2 pt-2 md:gap-3 md:pt-3 md:text-xl text-base">
+        <div className="flex gap-2 pt-5 md:gap-3 md:text-xl text-base">
           <h1 className="p-2 rounded-full bg-blue-600 text-white font-semibold h-fit my-auto md:text-lg">
             04
           </h1>
