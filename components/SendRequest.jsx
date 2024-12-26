@@ -31,11 +31,6 @@ function SendRequest() {
             alert("SUCCESS!, You scheduled appointment");
             setloading(false);
             setRecentRequest(true);
-            localStorage.setItem(
-              "requestData",
-              `Your Appointment is on ${inputs.date}`
-            );
-            localStorage.setItem("lastTime", `${Date.now()}`);
           },
           (error) => {
             console.log("FAILED...", error.text);
@@ -51,16 +46,10 @@ function SendRequest() {
       </h1>
       <h2 className="text-gray-200 text-2xl font-bold text-center">Today</h2>
       <div className="mt-3 sm:mx-auto sm:w-full sm:max-w-sm ">
-        {recentRequest ||
-        (localStorage.getItem("lastTime")
-          ? localStorage.getItem("lastTime") - Date.now() < 21600000
-          : false) ? (
+        {recentRequest ? (
           <div className="text-center">
             <h1 className="text-xl text-gray-300 font-bold">
               You allredy scheduled
-            </h1>
-            <h1 className="text-xl text-white font-bold">
-              {localStorage.getItem("requestData")}
             </h1>
             <h1 className="text-xl text-white font-bold">
               for more information call us{" "}
