@@ -37,7 +37,8 @@ const HeroSection = () => {
               options={{
                 strings: [
                   "Dental Implant",
-                  "Braces and Invisalign",
+                  "Braces",
+                  "Invisalign",
                   "Teeth whitening",
                   "Pediatric Dentistry",
                   "Porcelain Veneers",
@@ -56,7 +57,7 @@ const HeroSection = () => {
       <div className="relative m-auto h-auto max-h-[300px] md:max-h-[250px] overflow-y-hidden w-2/3 max-w-full py-2">
         <div className="mySlides">
           <Image
-            className="h-fit w-full max-w-96 duration-700 ease-in-out"
+            className="h-fit w-full max-w-96 rounded-2xl "
             alt="dr fetliwork address"
             src="/teeth-implant.png"
             width={1000}
@@ -65,7 +66,7 @@ const HeroSection = () => {
         </div>
         <div className="mySlides">
           <Image
-            className="h-fit w-full max-w-96 duration-700 ease-in-out"
+            className="h-fit w-full max-w-96 rounded-2xl "
             src="/Teeth-Whitening.jpg"
             alt="Portfolio_image"
             width={1000}
@@ -74,7 +75,7 @@ const HeroSection = () => {
         </div>
         <div className="mySlides">
           <Image
-            className="h-fit w-full max-w-96"
+            className="h-fit w-full max-w-96 rounded-2xl"
             src="/dental-braces.png"
             alt="Portfolio_image"
             width={1000}

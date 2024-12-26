@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import OurAddress from "@/components/OurAddress";
 import SocialMedia from "@/components/SocialMedia";
 import Footer from "@/components/Footer";
+import CallIcon from "@/components/CallIcon";
 
 export const metadata = {
   title: "Dr fetilework dental clinic",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           <SocialMedia />
           <Footer />
         </div>
+        <CallIcon />
       </body>
     </html>
   );
